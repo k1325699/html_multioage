@@ -1,0 +1,131 @@
+.header{
+  background-image: url(../img/bg_course.png);
+  width: 1024px;
+  height: 560px;
+  position: relative;
+}
+h1{
+  font-size: 45px;
+  color: #fff;
+  padding:110px 0 0 41px ;
+}
+.header p{
+  font-size: 24px;
+  color:#00cc99;
+  padding:18px 0 58px 40px;
+  letter-spacing:2px;
+}
+.link{
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  background: #00cc99;
+  padding: 15px 40px 15px 35px;
+  margin-left: 43px;
+  border-radius: 10px;
+}
+.html{
+  position: absolute;
+  top:115px;
+  right: 185px;
+}
+.css{
+  position: absolute;
+  top: 115px;
+  right: 60px;
+}
+.teacher{
+  display: flex;
+  padding: 60px 220px 60px 200px;
+}
+.teacher h2{
+  font-size: 35px;
+  line-height: 1.5;
+  color: #00cc99;
+  padding: 65px 40px 0 40px;
+}
+.teacher span{
+  color: #000;
+}
+.teacher ul{ 
+  padding-top:65px;
+  list-style-type: disc;
+}
+.teacher li{
+  color: #9b9b9b;
+  padding-left:32px ;
+  line-height: 1.5;
+}
+.pros{
+  padding:0 215px 60px 200px;
+}
+.pros h2{
+  color: #00cc99;
+  font-size: 35px;
+  display: inline-block;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+.pros p{
+  display: inline-block;
+  font-size: 20px;
+  color: #9b9b9b;
+}
+.pros ol{
+  list-style-type: decimal;
+  line-height: 1.5;
+  font-weight: bold;
+}
+.pros li{
+  padding-left: 20px;
+}
+.outline{
+  padding:0 0 60px 200px;
+}
+.outline h2{
+  color: #00cc99;
+  font-size: 35px;
+  display: inline-block;
+  padding-right: 20px;
+  padding-bottom: 30px;
+}
+.outline p{
+  display: inline-block;
+  font-size: 20px;
+  color: #9b9b9b;
+}
+table{
+  width: 620px;
+}
+td{
+  padding: 20px 0 18px 35px;
+  border-top: #ebebeb solid 1px;
+  border-bottom: #ebebeb solid 1px;
+  color: #9b9b9b;
+}
+.dark{
+  background: #ebebeb;
+  color: #323223;
+  font-weight: bold;
+}
+.register{
+  background: #ebebeb;
+  display: flex;
+  align-items: flex-start;
+}
+.register h2{
+  color: #323223;
+  font-size: 30px;
+  line-height: 1.5;
+  margin: 155px 60px 150px 205px;
+}
+.register a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  background: #00cc99;
+  display:block;
+  padding: 14px 35px 14px 40px;
+  margin-top: 200px;
+  border-radius: 10px;
+}

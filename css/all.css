@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.wrap{
+  width: 1024px;
+	margin: 0 auto;
+	font-family: "微軟正黑體";
+}
+.list{
+	background: rgba(0,0,0,0.5);
+	height: 75px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 40px;
+	padding-right: 30px;
+}
+
+.logo{
+	background-image: url(../img/logo.png);
+	width: 182px;
+	height: 36px;
+	display: block;
+	text-indent:101%;
+  overflow: hidden;
+  white-space:nowrap
+}
+.list ul{
+	display: flex;
+}
+.list li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 30px 25px;
+	font-weight: bold;
+}
+.list li a:hover{
+	color: #00cc99;
+	border-bottom:10px solid #00cc99;
+	padding-bottom: 17px;
+}
+.list .mark{
+  color: #00cc99;
+  padding-bottom: 17px;
+  border-bottom:10px solid #00cc99;
+}
+.footer{
+  height: 132px;
+	background: #323228;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 30px;
+	padding-right: 32px;
+}
+.footer img ,.footer a{
+	margin: 0 10px;
+}
+.footer p{
+	padding-top: 5px;
+	padding-left: 40px;
+	color: #868684;
+}
+.footer a{
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	text-indent: 101%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.fb{
+	background-image: url(../img/fb.png)
+}
+.tw{
+	background-image: url(../img/tw.png);
+}
+.ig{
+	background-image: url(../img/ig.png);
+}
